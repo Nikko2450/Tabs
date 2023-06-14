@@ -1,11 +1,14 @@
 .tabs-section
   padding-bottom: 44px
+  position: relative
 
   &__container
     background-color: #ffff
     border-radius: 40px
     text-align: center
     padding: 66px 0 38px
+    position: relative
+    z-index: 1
 
   &__blue-button
     padding: 13px 96px
@@ -18,3 +21,36 @@
     margin: 0 auto
     width: max-content
     border-radius: 49px
+
+  &__circle-1, &__circle-2, &__circle-3, &__circle-4
+    position: absolute
+    background: rgb(34,209,238)
+    background: linear-gradient(180deg, #22D1EE 0%, #3D5AF1 100%)
+    border-radius: 50%
+
+  &__circle-1
+    width: 65px
+    height: 65px
+    top: 15%
+    left: -2%
+
+  &__circle-2
+    width: 123px
+    height: 123px
+    bottom: 9%
+    right: -7%
+
+  &__circle-3
+    width: 196px
+    height: 196px
+    left: 11%
+    bottom: -14%
+    filter: blur(14.5px)
+    z-index: 0
+
+  &__circle-4
+    width: 371px
+    height: 371px
+    right: 5%
+    top: -47%
+    filter: blur(31.5px)

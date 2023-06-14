@@ -5,13 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <main>
     <header class="header">
       <div class="header__container content">
-        <img class="header__img" src="img/header/header-logo.svg" alt="logo">
+        <h2 class="header__title">Tabs</h2>
       </div>
     </header>
   
@@ -26,11 +29,30 @@
             <li class="tabs__button"><button>Train</button></li>
           </ul>
           <div class="tabs__content">
-            <img src="img/section/bike-img-1.jpg" alt="bike" class="tabs__img">
+            <div class="tabs__item active">
+              <img src="img/section/bike-img-1.jpg" alt="bike" class="tabs__img">
+            </div>
+            <div class="tabs__item">
+              <img src="img/section/motorbike-img-2.jpg" alt="motorbike" class="tabs__img">
+            </div>
+            <div class="tabs__item">
+              <img src="img/section/car-img-3.jpg" alt="car" class="tabs__img">
+            </div>
+            <div class="tabs__item">
+              <img src="img/section/boat-img-4.jpg" alt="boat" class="tabs__img">
+            </div>
+            <div class="tabs__item">
+              <img src="img/section/train-img-5.jpg" alt="train" class="tabs__img">
+            </div>
           </div>
         </div>
         <a href="#" class="tabs-section__blue-button">Follow</a>
+
+        <div class="tabs-section__circle-1"></div>
+        <div class="tabs-section__circle-2"></div>
       </div>
+        <div class="tabs-section__circle-3"></div>
+        <div class="tabs-section__circle-4"></div>
     </section>
 
     <footer class="footer">
@@ -39,5 +61,7 @@
       </div>
     </footer>
   </main>
+
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
